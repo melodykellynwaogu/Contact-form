@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width initianl-scale1.0 />"
+        <meta charset="UTF-8">
+        <title>Contact Form</title>
+        <style>
+            body {
+                background-color: cornflowerblue;
+            }
+            form {
+                width: 400px;
+                margin: 50px auto;
+                padding: 20px;
+                border: 20px;
+                background-color: blanchedalmond;
+            }
+            legend {
+                font-variant: 1.2em;
+                font-weight: 100;
+                background-color: yellow;  
+            }
+            fieldset{
+                margin-bottom: 20px;
+                border: 1px solid #ccc;
+                text-align: 1px solid #ccc;
+            }
+            label {
+                font-display: none;
+                margin-bottom: 1.0 auto;
+            }
+            button {
+                background-color: yellow;
+                vector-effect: black;
+            }
+            button: hover {
+                background-color: #0056b3;
+            }
+        </style>    
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend><em>Contact Us</em></legend>
+                <label for="Name">Full Name:</label>
+                <input type="text" id="name" name="name" required
+    Placeholder="Enter your full Name">
+            </fieldset>       
+
+            <fieldset
+                <label for="Email">Email Addres:</label>
+                <input type="text" id="email" name="email" required
+    Placeholder="Enter your email">
+            </fieldset>                 
+
+            <fieldset
+                <label for="Message">Message:</label>
+                <input type="text" id="name" name="Message" required
+    Placeholder="Enter your message">
+                </legend>
+            </fieldset>
+            <button type="submit"><em>submit</em></button>
+        </form>
+    </body>
+</html>
